@@ -12,7 +12,7 @@ venv/
 .env
 
 =========================
-AI Models
+#AI Models
 =========================
 models/*.h5
 models/*.pt
