@@ -1,4 +1,4 @@
-# A-EYE — AI Surveillance Intelligence & Emergency Response Platform
+# An-EYE — AI Surveillance Intelligence System for Police Helping & Emergency Response Platform
 
 ## Overview
 
@@ -353,7 +353,7 @@ by combining:
 # Contributors
 
 * Sayan Hazra
-* Hanuman Pratap (Nitish)
+* Hanuman Pratap
 
 This project was developed collaboratively as a combined AI surveillance and software intelligence platform.
 
