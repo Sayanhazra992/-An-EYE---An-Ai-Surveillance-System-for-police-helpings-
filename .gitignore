@@ -14,9 +14,9 @@ venv/
 =========================
 #AI Models
 =========================
-models/*.h5
-models/*.pt
-models/*.onnx
+# models/*.h5
+# models/*.pt
+# models/*.onnx
 
 # =========================
 # Video Files

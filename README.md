@@ -1,373 +1,393 @@
-# An-EYE — AI Surveillance Intelligence System for Police Helping & Emergency Response Platform
+<div align="center">
 
-## Overview
+# 👁️ An EYE
+### AI-Powered Surveillance & Emergency Response Platform
 
-A-EYE is an advanced AI-powered surveillance intelligence platform designed for real-time violence detection, intelligent incident analysis, smart evidence generation, and centralized monitoring infrastructure.
+Transforming traditional CCTV systems into intelligent real-time incident detection infrastructure for police and public safety systems.
 
-The system combines Artificial Intelligence, Computer Vision, Real-Time Video Processing, Backend Intelligence Services, and Interactive Monitoring Dashboards into a unified surveillance ecosystem capable of assisting emergency response and public safety operations.
+<br>
 
-Unlike traditional CCTV systems that only record footage, A-EYE transforms surveillance into an active intelligence system capable of analyzing, detecting, recording, and managing critical incidents automatically.
+<img src="./big-dot.png" width="180"/>
+
+<br>
+
+<!-- DEMO GIF PLACEHOLDER -->
+<img src="./assets/demo.gif" alt="An-EYE Demo" width="100%"/>
+
+> 📹 Replace the GIF above with:
+> - Dashboard walkthrough
+> - Violence detection demo
+> - Live alert animation
+> - Incident escalation workflow
+
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSockets-black?style=for-the-badge&logo=socketdotio&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-AI-red?style=for-the-badge)
+
+</div>
 
 ---
 
-# Core Objectives
+# 🚔 Live Police Dashboard
 
-* Real-time violence detection
-* Intelligent surveillance monitoring
-* Automated incident generation
-* Smart evidence recording
-* Centralized dashboard infrastructure
-* Live camera intelligence
-* Scalable distributed surveillance architecture
-* AI-assisted emergency response workflows
+🌐 **Dashboard:**  
+https://an-eye-surveillance.vercel.app/
+
+> ⚠️ Backend APIs may sometimes be inactive because the project currently runs on free-tier infrastructure.
 
 ---
 
-# High-Level System Workflow
+# 📚 Table of Contents
+
+- [About](#-about)
+- [Features](#-features)
+- [System Workflow](#-system-workflow)
+- [Tech Stack](#-tech-stack)
+- [Monorepo Structure](#-monorepo-structure)
+- [Installation Guide](#-installation-guide)
+- [Environment Variables](#-environment-variables)
+- [Running The Project](#-running-the-project)
+- [Future Scope](#-future-scope)
+- [Contributors](#-contributors)
+- [License](#-license)
+
+---
+
+# 🧠 About
+
+**An EYE** is an AI-powered surveillance intelligence platform designed for:
+
+- 🚨 Real-time violence detection
+- 👮 Police monitoring systems
+- 📹 Smart CCTV analytics
+- 🧠 Human pose intelligence
+- ⚡ Live incident alerts
+- 📍 Smart emergency response
+
+The platform combines:
+
+- Artificial Intelligence
+- Computer Vision
+- Real-Time Streaming
+- Backend APIs
+- Live Monitoring Dashboard
+
+to create a modern intelligent surveillance ecosystem.
+
+---
+
+# ✨ Features
+
+<div align="center">
+
+| Feature | Description |
+|---|---|
+| 🎥 Real-Time CCTV Monitoring | Analyze live camera feeds |
+| 🧠 AI Violence Detection | Detect fights & aggressive motion |
+| 🕺 Pose Intelligence | Human pose estimation & movement analysis |
+| 🚨 Live Incident Alerts | Instant dashboard notifications |
+| 🔊 Alert Sound System | Siren/audio notification support |
+| 📼 Smart Clip Recording | Automatic evidence clip generation |
+| 📍 Incident Location Tracking | Camera & location metadata |
+| 🌐 Police Dashboard | Live centralized monitoring |
+| ⚡ WebSocket Updates | Realtime alert communication |
+| 🧾 Audit Logs | Incident tracking & review history |
+| 📡 Multi-Camera Architecture | Scalable monitoring support |
+| 🧠 Local AI Inference | AI runs locally on machine/GPU |
+| 🔐 Authentication System | Protected operator access |
+| 🖥️ Modern UI Dashboard | Responsive React interface |
+
+</div>
+
+---
+
+# ⚙️ System Workflow
 
 ```text
-CCTV / Webcam Stream
-            ↓
-Motion Analysis Layer
-            ↓
-AI Violence Detection Engine
-            ↓
-Human Pose Intelligence
-            ↓
-Fusion Scoring System
-            ↓
+CCTV / Camera Feed
+        ↓
+Motion Detection
+        ↓
+AI Violence Detection
+        ↓
+Pose Intelligence Analysis
+        ↓
 Threat Confirmation
-            ↓
-Smart Evidence Recorder
-            ↓
+        ↓
+Evidence Clip Recording
+        ↓
 Incident Generation
-            ↓
-Backend Intelligence APIs
-            ↓
-Real-Time Monitoring Dashboard
-            ↓
-Centralized Surveillance Management
+        ↓
+FastAPI Backend
+        ↓
+WebSocket Alert System
+        ↓
+Police Dashboard
 ```
 
 ---
 
-# System Architecture
+# 🛠️ Tech Stack
 
-The platform is designed using a modular distributed architecture consisting of:
+## 🤖 AI & Computer Vision
 
-## 1. AI Edge Intelligence Layer
-
-Responsible for:
-
-* Video stream processing
-* AI inference
-* Violence analysis
-* Pose estimation
-* Smart recording
-* Local event generation
-* Real-time detection pipeline
+- 🐍 Python
+- 👁️ OpenCV
+- 🧠 YOLO Pose Estimation
+- 🔥 TensorFlow / Keras
+- ⚡ Local GPU Inference
 
 ---
 
-## 2. Backend Intelligence Infrastructure
+## ⚙️ Backend
 
-Responsible for:
-
-* Incident APIs
-* Database management
-* Camera management
-* Event synchronization
-* WebSocket communication
-* Dashboard services
-* Monitoring infrastructure
+- ⚡ FastAPI
+- 🗄️ SQLAlchemy
+- 🐘 PostgreSQL / SQLite
+- 🔌 WebSockets
+- 🔐 JWT Authentication
 
 ---
 
-## 3. Frontend Monitoring Dashboard
+## 🌐 Frontend
 
-Responsible for:
-
-* Live surveillance monitoring
-* Incident visualization
-* Event management
-* Operator interaction
-* Real-time system updates
-* Camera status tracking
+- ⚛️ React
+- ⚡ Vite
+- 🎨 CSS / Tailwind-inspired UI
+- 📡 Live Dashboard Updates
 
 ---
 
-# Major Features
+# 🗂️ Monorepo Structure
 
-# Real-Time Violence Detection
-
-The system continuously analyzes live video feeds from:
-
-* CCTV cameras
-* USB webcams
-* RTSP streams
-* Recorded video files
-
-The AI engine identifies violent interactions and aggressive movement patterns in real time.
-
----
-
-# Motion-Gated AI Processing
-
-Before executing heavy AI inference, the platform performs motion analysis.
-
-### Benefits
-
-* Reduces unnecessary processing
-* Optimizes CPU/GPU usage
-* Improves real-time performance
-* Minimizes idle inference load
-
----
-
-# AI Detection Pipeline
-
-The detection engine combines multiple AI components:
-
-## CNN-Based Violence Detection
-
-Used for identifying:
-
-* Physical fights
-* Aggressive actions
-* Violent body interactions
-* High-risk movement patterns
-
----
-
-## Human Pose Intelligence
-
-Pose estimation improves detection quality through:
-
-* Skeleton tracking
-* Joint movement analysis
-* Aggressive posture identification
-* Motion behavior analysis
-
----
-
-## Fusion Intelligence System
-
-Multiple AI outputs are fused together to improve reliability and reduce false positives.
-
-The system combines:
-
-* Violence confidence
-* Pose confidence
-* Motion activity
-* Temporal consistency
-
-to generate the final threat score.
-
----
-
-# Smart Evidence Recording
-
-The evidence system automatically records and manages incident clips.
-
-## Features
-
-* Pre-event recording buffer
-* Dynamic recording extension
-* Calm-state detection
-* Automatic clip saving
-* Evidence organization
-
-The recorder ensures that important moments before and during incidents are preserved automatically.
-
----
-
-# Incident Intelligence System
-
-When a threat is confirmed, the system automatically:
-
-* Generates incident metadata
-* Saves evidence clips
-* Creates event logs
-* Sends incident data to backend services
-* Updates monitoring dashboards
-
----
-
-# Real-Time Dashboard Infrastructure
-
-The monitoring dashboard provides centralized surveillance management with:
-
-* Live camera monitoring
-* Real-time incident updates
-* Event visualization
-* Camera status monitoring
-* Incident tracking
-* Alert management
-* Backend synchronization
-
----
-
-# Distributed Surveillance Architecture
-
-A-EYE is designed as a distributed intelligence system where:
-
-* AI processing can run on edge devices
-* Backend services manage centralized coordination
-* Dashboards provide real-time operational visibility
-
-This architecture enables scalability from:
-
-```text
-Single Camera Systems
-```
-
-to
-
-```text
-Multi-Camera Intelligent Surveillance Networks
-```
-
----
-
-# Project Structure
-
-```text
-A-EYE/
+```bash
+An-EYE/
 │
-├── ai_engine/                     # AI processing modules
-├── detectors/                    # Detection systems
-├── models/                       # AI model files
-├── streaming/                    # Video stream handling
-├── violent_clips/                # Saved evidence clips
-├── videolive/                    # Live video storage
+├── dashboard/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── styles/
+│   │   ├── websocket/
+│   │   └── utils/
+│   │
+│   ├── package.json
+│   └── vite.config.js
 │
-├── software_part/
-│   └── An-EYE-command/
-│       ├── backend/              # Backend intelligence APIs
-│       ├── dashboard/            # Frontend dashboard
-│       ├── websocket/            # Real-time communication
-│       ├── config/               # Configuration files
-│       └── database/             # Database integration
+├── An-EYE-incident-ai/
+│   │
+│   ├── ai_engine/
+│   │   ├── services/
+│   │   ├── suspect_db/
+│   │   ├── suspect_faces/
+│   │   └── suspect_system/
+│   │
+│   ├── config/
+│   │   └── cameras.json
+│   │
+│   ├── detectors/
+│   │   ├── pose_detector.py
+│   │   └── violence_detector.py
+│   │
+│   ├── model/
+│   ├── streaming/
+│   ├── app_v1.py
+│   └── requirements.txt
 │
-├── app_v1.py                     # Main AI runtime
+├── storage/
+├── logs/
+├── main.py
 ├── requirements.txt
-├── .gitignore
 └── README.md
 ```
 
 ---
 
-# Technologies Used
+# 🚀 Installation Guide
 
-## Artificial Intelligence & Computer Vision
+<details>
+<summary><b>📥 1. Clone Repository</b></summary>
 
-* Python
-* TensorFlow
-* Keras
-* OpenCV
-* YOLO Pose Estimation
-* NumPy
-* Scikit-learn
+```bash
+git clone https://github.com/Sayanhazra992/-An-EYE---An-Ai-Surveillance-System-for-police-helpings-.git
 
----
-
-## Backend Infrastructure
-
-* FastAPI
-* SQLAlchemy
-* PostgreSQL / SQLite
-* WebSockets
-* Uvicorn
-
----
-
-## Frontend Technologies
-
-* React
-* Vite
-* Tailwind CSS
-
----
-
-# System Modes
-
-## Live Surveillance Mode
-
-Features:
-
-* Continuous live monitoring
-* Real-time violence detection
-* Smart evidence generation
-* Automatic incident handling
-* Live dashboard synchronization
-
----
-
-## Video Analysis Mode
-
-Features:
-
-* Offline video processing
-* Incident extraction
-* Evidence review
-* Event playback analysis
-
----
-
-# Future Scope
-
-Planned future developments include:
-
-* Multi-camera AI synchronization
-* Weapon detection
-* Crowd behavior analysis
-* Face recognition integration
-* Predictive surveillance intelligence
-* GPS camera mapping
-* Cloud evidence synchronization
-* Real-time police escalation systems
-* Mobile monitoring applications
-* Distributed edge intelligence nodes
-
----
-
-# Innovation Highlights
-
-A-EYE evolves traditional surveillance systems into:
-
-```text
-AI Surveillance Intelligence Infrastructure
+cd -An-EYE---An-Ai-Surveillance-System-for-police-helpings-
 ```
 
-by combining:
-
-* Real-time AI analysis
-* Automated evidence generation
-* Intelligent incident management
-* Distributed monitoring systems
-* Smart backend infrastructure
-* Live operational dashboards
+</details>
 
 ---
 
-# Contributors
+<details>
+<summary><b>🐍 2. Create Python Environment</b></summary>
 
-* Sayan Hazra
-* Hanuman Pratap
+### Windows
 
-This project was developed collaboratively as a combined AI surveillance and software intelligence platform.
+```bash
+python -m venv venv
+
+venv\Scripts\activate
+```
+
+### Linux / Mac
+
+```bash
+python3 -m venv venv
+
+source venv/bin/activate
+```
+
+</details>
 
 ---
 
-# Final Summary
+<details>
+<summary><b>📦 3. Install Backend & AI Dependencies</b></summary>
 
-A-EYE is a scalable AI-powered surveillance intelligence ecosystem capable of:
+```bash
+pip install -r requirements.txt
+```
 
-* Detecting violent activity
-* Processing live surveillance feeds
-* Recording smart evidence clips
-* Generating incident intelligence
-* Managing centralized monitoring systems
-* Supporting real-time emergency response workflows
+Install AI engine dependencies:
 
-The platform combines AI edge intelligence with centralized backend infrastructure to create an intelligent surveillance architecture suitable for future smart security systems and public safety applications.
+```bash
+cd An-EYE-incident-ai
+
+pip install -r requirements.txt
+```
+
+</details>
+
+---
+
+<details>
+<summary><b>🌐 4. Install Dashboard Dependencies</b></summary>
+
+```bash
+cd dashboard
+
+npm install
+```
+
+</details>
+
+---
+
+# 🔐 Environment Variables
+
+Create `.env` file in backend/dashboard if needed.
+
+Example:
+
+```env
+DATABASE_URL=postgresql://user:password@localhost/aneye
+SECRET_KEY=your_secret_key
+BACKEND_URL=http://localhost:8000
+```
+
+---
+
+# ▶️ Running The Project
+
+## 🤖 Start AI Engine
+
+```bash
+cd An-EYE-incident-ai
+
+python app_v1.py
+```
+
+---
+
+## ⚙️ Start Backend Server
+
+```bash
+uvicorn main:app --reload
+```
+
+---
+
+## 🌐 Start Dashboard
+
+```bash
+cd dashboard
+
+npm run dev
+```
+
+---
+
+# 📸 Demo Assets
+
+## Dashboard Showcase
+
+```md
+![Dashboard Demo](./assets/dashboard-demo.gif)
+```
+
+---
+
+## AI Detection Showcase
+
+```md
+![AI Detection Demo](./assets/violence-detection.gif)
+```
+
+---
+
+## Live Alerts Showcase
+
+```md
+![Live Alerts](./assets/live-alerts.gif)
+```
+
+---
+
+# 🧭 Future Scope
+
+- 🔫 Weapon Detection
+- ☁️ Cloud Evidence Storage
+- 📱 Mobile Police App
+- 🌍 Smart City Integration
+- 🛰️ Multi-Camera Synchronization
+- 🤖 Distributed AI Nodes
+- 🚔 Automatic Dispatch Suggestions
+- 👥 Crowd Anomaly Detection
+
+---
+
+# 🤝 Contributors
+
+## 👨‍💻 Sayan Hazra
+📧 sayanh992@gmail.com
+
+---
+
+## 👨‍💻 Hanumant Pratap
+📧 hanumantpratap1234@gmail.com
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+### 👁️ An EYE
+#### Intelligent Surveillance For Faster Emergency Response
+
+⭐ Star the repository if you found this project useful.
+
+</div>
