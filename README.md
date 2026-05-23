@@ -8,7 +8,7 @@
 Transforming passive CCTV infrastructure into intelligent real-time public safety systems.
 </p>
 
-# <img src="./assets/big-dot.png" width="500"/>
+# <img src="./Assets/big-dot.png" width="500"/>
 
 <br/>
 
@@ -82,7 +82,7 @@ https://an-eye-surveillance.vercel.app/
 
 ---
 
-# <img src="./assets/demo.gif" width="1000"/>
+# <img src="./Assets/demo.gif" width="1000"/>
 
 ## Backend Activation
 
