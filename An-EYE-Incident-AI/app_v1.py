@@ -647,7 +647,7 @@ def _raw_playback_and_record(cap, fps, w, h, from_frame):
 
 # ==================== VIDEO MODE ========================
 
-def analyze_video(video_path, cam_id="CAM2", location="Gandhi Maidan Gate 2"):
+def analyze_video(video_path, cam_id="CAM3", location="Bihar Museum Front"):
     """
     Phase 1 — AI analysis
     ---------------------
@@ -685,7 +685,7 @@ def analyze_video(video_path, cam_id="CAM2", location="Gandhi Maidan Gate 2"):
     recorder    = SmartRecorder(fps, w, h)
     prob_buffer = deque(maxlen=SMOOTHING_WINDOW)
 
-    WIN   = "A-EYE | Video Analysis (Q=quit)"
+    WIN   = "An-EYE | Video Analysis (Q=quit)"
     delay = max(1, int(1000 / fps))
 
     # Resizable window — opens at a comfortable size, drag to enlarge freely
@@ -740,8 +740,8 @@ def analyze_video(video_path, cam_id="CAM2", location="Gandhi Maidan Gate 2"):
                         "city": "Patna",
                         "precinct": "River Zone",
                         "location": location,
-                        "latitude": 25.6208,
-                        "longitude": 85.1450
+                        "latitude": 25.607776,
+                        "longitude": 85.1203199
                     },
                     confidence=peak,
                     violence_type="Physical Assault",

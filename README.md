@@ -1,74 +1,65 @@
 <div align="center">
 
-# 👁️ An EYE
+### An EYE
+
 ### AI-Powered Surveillance & Emergency Response Platform
 
-Transforming traditional CCTV systems into intelligent real-time incident detection infrastructure for police and public safety systems.
+<p align="center">
+Transforming passive CCTV infrastructure into intelligent real-time public safety systems.
+</p>
 
-<br>
+# <img src="./assets/big-dot.png" width="500"/>
 
-<img src="./big-dot.png" width="180"/>
+<br/>
 
-<br>
+<a href="https://an-eye-surveillance.vercel.app/">
+  <img src="https://img.shields.io/badge/Police%20Dashboard-Live-111827?style=for-the-badge&logo=vercel">
+</a>
 
-<!-- DEMO GIF PLACEHOLDER -->
-<img src="./assets/demo.gif" alt="An-EYE Demo" width="100%"/>
+<a href="https://an-eye-backend.onrender.com">
+  <img src="https://img.shields.io/badge/Backend-Activate-2563EB?style=for-the-badge&logo=render">
+</a>
 
-> 📹 Replace the GIF above with:
-> - Dashboard walkthrough
-> - Violence detection demo
-> - Live alert animation
-> - Incident escalation workflow
+<a href="mailto:sayanh992@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Sayan_Hazra-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
 
-<br>
+<a href="mailto:hanumantpratap1234@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Hanumant_Pratap-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSockets-black?style=for-the-badge&logo=socketdotio&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-AI-red?style=for-the-badge)
+<br/>
+
+<a href="https://www.linkedin.com/in/sayan-hazra-4568b2360">
+  <img src="https://img.shields.io/badge/LinkedIn-Sayan_Hazra-0077B5?style=for-the-badge&logo=linkedin">
+</a>
+
+<a href="https://www.linkedin.com/in/hanumant-pratap-869534330/">
+  <img src="https://img.shields.io/badge/LinkedIn-Hanumant_Pratap-0077B5?style=for-the-badge&logo=linkedin">
+</a>
 
 </div>
 
 ---
 
-# 🚔 Live Police Dashboard
+<div align="center">
 
-🌐 **Dashboard:**  
-https://an-eye-surveillance.vercel.app/
+<img src="https://media.giphy.com/media/sIIhZliB2McAo/giphy.gif" width="280"/>
 
-> ⚠️ Backend APIs may sometimes be inactive because the project currently runs on free-tier infrastructure.
-
----
-
-# 📚 Table of Contents
-
-- [About](#-about)
-- [Features](#-features)
-- [System Workflow](#-system-workflow)
-- [Tech Stack](#-tech-stack)
-- [Monorepo Structure](#-monorepo-structure)
-- [Installation Guide](#-installation-guide)
-- [Environment Variables](#-environment-variables)
-- [Running The Project](#-running-the-project)
-- [Future Scope](#-future-scope)
-- [Contributors](#-contributors)
-- [License](#-license)
+</div>
 
 ---
 
-# 🧠 About
+# Overview
 
-**An EYE** is an AI-powered surveillance intelligence platform designed for:
+**An EYE** is a real-time AI surveillance intelligence platform designed for:
 
-- 🚨 Real-time violence detection
-- 👮 Police monitoring systems
-- 📹 Smart CCTV analytics
-- 🧠 Human pose intelligence
-- ⚡ Live incident alerts
-- 📍 Smart emergency response
+- Violence Detection
+- Smart Incident Monitoring
+- Emergency Response Assistance
+- Evidence Recording
+- Police Dashboard Monitoring
+- Live AI CCTV Analysis
 
 The platform combines:
 
@@ -76,49 +67,45 @@ The platform combines:
 - Computer Vision
 - Real-Time Streaming
 - Backend APIs
-- Live Monitoring Dashboard
+- WebSocket Communication
+- Modern Monitoring Dashboard
 
-to create a modern intelligent surveillance ecosystem.
-
----
-
-# ✨ Features
-
-<div align="center">
-
-| Feature | Description |
-|---|---|
-| 🎥 Real-Time CCTV Monitoring | Analyze live camera feeds |
-| 🧠 AI Violence Detection | Detect fights & aggressive motion |
-| 🕺 Pose Intelligence | Human pose estimation & movement analysis |
-| 🚨 Live Incident Alerts | Instant dashboard notifications |
-| 🔊 Alert Sound System | Siren/audio notification support |
-| 📼 Smart Clip Recording | Automatic evidence clip generation |
-| 📍 Incident Location Tracking | Camera & location metadata |
-| 🌐 Police Dashboard | Live centralized monitoring |
-| ⚡ WebSocket Updates | Realtime alert communication |
-| 🧾 Audit Logs | Incident tracking & review history |
-| 📡 Multi-Camera Architecture | Scalable monitoring support |
-| 🧠 Local AI Inference | AI runs locally on machine/GPU |
-| 🔐 Authentication System | Protected operator access |
-| 🖥️ Modern UI Dashboard | Responsive React interface |
-
-</div>
+to convert traditional CCTV systems into intelligent public safety infrastructure.
 
 ---
 
-# ⚙️ System Workflow
+# Live Deployment
+
+## Police Dashboard
+
+https://an-eye-surveillance.vercel.app/
+
+---
+
+# <img src="./assets/demo.gif" width="1000"/>
+
+## Backend Activation
+
+> Backend may sleep because Render free tier is used.
+
+Activate backend by visiting:
+
+https://an-eye-backend.onrender.com
+
+---
+
+# System Workflow
 
 ```text
 CCTV / Camera Feed
         ↓
 Motion Detection
         ↓
-AI Violence Detection
+Violence Detection AI
         ↓
 Pose Intelligence Analysis
         ↓
-Threat Confirmation
+Threat Validation
         ↓
 Evidence Clip Recording
         ↓
@@ -126,48 +113,87 @@ Incident Generation
         ↓
 FastAPI Backend
         ↓
-WebSocket Alert System
-        ↓
-Police Dashboard
+Realtime Police Dashboard
 ```
 
 ---
 
-# 🛠️ Tech Stack
+# Features
 
-## 🤖 AI & Computer Vision
+## AI Intelligence
 
-- 🐍 Python
-- 👁️ OpenCV
-- 🧠 YOLO Pose Estimation
-- 🔥 TensorFlow / Keras
-- ⚡ Local GPU Inference
-
----
-
-## ⚙️ Backend
-
-- ⚡ FastAPI
-- 🗄️ SQLAlchemy
-- 🐘 PostgreSQL / SQLite
-- 🔌 WebSockets
-- 🔐 JWT Authentication
+- Real-time violence detection
+- CNN + YOLO pose-based behavioral analysis
+- AI confidence scoring
+- Low false-positive fusion intelligence
+- Threat classification
+- Smart evidence recording
+- Dynamic risk-based suspect watchlist
 
 ---
 
-## 🌐 Frontend
+## Monitoring System
 
-- ⚛️ React
-- ⚡ Vite
-- 🎨 CSS / Tailwind-inspired UI
-- 📡 Live Dashboard Updates
+- Live CCTV monitoring
+- Webcam support
+- ESP32-CAM support(for demo)
+- RTSP stream support
+- Multi-camera scalable architecture
+- Real-time alert queue
 
 ---
 
-# 🗂️ Monorepo Structure
+## Dashboard Features
 
-```bash
-An-EYE/
+- Live police dashboard
+- Browser alert notifications
+- Alert siren support
+- Incident playback
+- Status management
+- Incident escalation
+- Location-aware monitoring
+
+---
+
+## Backend Infrastructure
+
+- FastAPI backend
+- PostgreSQL support
+- WebSocket communication
+- Incident APIs
+- Audit logs
+- Modular scalable architecture
+
+---
+
+# Tech Stack
+
+<div align="center">
+
+| Category | Technologies |
+|---|---|
+| AI / ML | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) |
+| Backend | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) |
+| Frontend | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white) |
+| Streaming | ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat&logo=socketdotio&logoColor=white) |
+| Deployment | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=black) |
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZGlkNzNrYXh5b3dranVmNzd3bWR0aDE0dmZhcmwxZHpmYmF1MHJvYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/utz68KlKM5LGBVF6HZ/giphy.gif" width="220"/>
+
+</div>
+
+---
+
+# Monorepo Structure
+
+```text
+An-EYE-command/
 │
 ├── dashboard/
 │   ├── public/
@@ -177,11 +203,17 @@ An-EYE/
 │   │   ├── pages/
 │   │   ├── services/
 │   │   ├── styles/
-│   │   ├── websocket/
-│   │   └── utils/
+│   │   ├── utils/
+│   │   └── websocket/
+│   │       └── socket.js
 │   │
-│   ├── package.json
-│   └── vite.config.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── vite.config.js
+│   └── package.json
+│
+├── logs/
+├── storage/
 │
 ├── An-EYE-incident-ai/
 │   │
@@ -203,23 +235,35 @@ An-EYE/
 │   ├── app_v1.py
 │   └── requirements.txt
 │
-├── storage/
-├── logs/
-├── main.py
-├── requirements.txt
 └── README.md
 ```
 
 ---
 
-# 🚀 Installation Guide
+# Specifications
+
+| Requirement | Minimum | Recommended |
+|---|---|---|
+| RAM | 8 GB | 16 GB |
+| CPU | Intel i5 | Ryzen 7 / i7 |
+| GPU | Optional | NVIDIA CUDA GPU |
+| Python | 3.10+ | 3.10+ |
+| OS | Windows / Linux | Ubuntu |
+
+---
+
+# Installation Guide
 
 <details>
-<summary><b>📥 1. Clone Repository</b></summary>
+<summary><b>1. Clone Repository</b></summary>
+
+<br/>
 
 ```bash
 git clone https://github.com/Sayanhazra992/-An-EYE---An-Ai-Surveillance-System-for-police-helpings-.git
+```
 
+```bash
 cd -An-EYE---An-Ai-Surveillance-System-for-police-helpings-
 ```
 
@@ -228,21 +272,29 @@ cd -An-EYE---An-Ai-Surveillance-System-for-police-helpings-
 ---
 
 <details>
-<summary><b>🐍 2. Create Python Environment</b></summary>
+<summary><b>2. Create Python Virtual Environment</b></summary>
 
-### Windows
+<br/>
+
+## Windows
 
 ```bash
 python -m venv venv
+```
 
+```bash
 venv\Scripts\activate
 ```
 
-### Linux / Mac
+---
+
+## Linux / Mac
 
 ```bash
 python3 -m venv venv
+```
 
+```bash
 source venv/bin/activate
 ```
 
@@ -251,17 +303,19 @@ source venv/bin/activate
 ---
 
 <details>
-<summary><b>📦 3. Install Backend & AI Dependencies</b></summary>
+<summary><b>3. Install AI Dependencies</b></summary>
+
+<br/>
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Install AI engine dependencies:
-
 ```bash
 cd An-EYE-incident-ai
+```
 
+```bash
 pip install -r requirements.txt
 ```
 
@@ -270,11 +324,15 @@ pip install -r requirements.txt
 ---
 
 <details>
-<summary><b>🌐 4. Install Dashboard Dependencies</b></summary>
+<summary><b>4. Install Frontend Dependencies</b></summary>
+
+<br/>
 
 ```bash
 cd dashboard
+```
 
+```bash
 npm install
 ```
 
@@ -282,112 +340,141 @@ npm install
 
 ---
 
-# 🔐 Environment Variables
+# Running The AI Engine
 
-Create `.env` file in backend/dashboard if needed.
-
-Example:
-
-```env
-DATABASE_URL=postgresql://user:password@localhost/aneye
-SECRET_KEY=your_secret_key
-BACKEND_URL=http://localhost:8000
-```
+> Dashboard and backend are already deployed.  
+> Only the AI engine needs to run locally.
 
 ---
 
-# ▶️ Running The Project
-
-## 🤖 Start AI Engine
+## Start AI Detection Engine
 
 ```bash
 cd An-EYE-incident-ai
+```
 
+```bash
 python app_v1.py
 ```
 
 ---
 
-## ⚙️ Start Backend Server
+# ngrok Setup For Live Camera Feed
+
+## Install ngrok
+
+https://ngrok.com/download
+
+---
+
+## Authenticate ngrok
 
 ```bash
-uvicorn main:app --reload
+ngrok config add-authtoken YOUR_AUTH_TOKEN
 ```
 
 ---
 
-## 🌐 Start Dashboard
+## Expose Local AI Port
+
+Example:
 
 ```bash
-cd dashboard
+ngrok http 5000
+```
 
-npm run dev
+or
+
+```bash
+ngrok http 8000
 ```
 
 ---
 
-# 📸 Demo Assets
+## Use Generated Public URL
 
-## Dashboard Showcase
+Example:
+
+```text
+https://xxxxx.ngrok-free.app
+```
+
+Use this URL inside:
+- camera stream source
+- backend webhook
+- remote AI feed
+
+---
+
+# Environment Variables
+
+## Root `.env`
+
+```env
+DATABASE_URL=
+SECRET_KEY=
+BACKEND_URL=
+```
+
+---
+
+## Dashboard `.env`
+
+```env
+VITE_BACKEND_URL=
+VITE_WS_URL=
+```
+
+---
+
+
+## Project Demo
 
 ```md
-![Dashboard Demo](./assets/dashboard-demo.gif)
+
+https://youtu.be/5B948vFbfBs
+
+
 ```
 
 ---
 
-## AI Detection Showcase
+# Contributors
 
-```md
-![AI Detection Demo](./assets/violence-detection.gif)
-```
+# Contributors
 
----
-
-## Live Alerts Showcase
-
-```md
-![Live Alerts](./assets/live-alerts.gif)
-```
+| Name | Contribution |
+|---|---|
+| **Sayan Hazra** | AI Systems,suspect recognition, clips saving techquiqe ,motion Getting ,Evidence Recording & Surveillance Runtime Development |
+| **Hanumant Pratap** | AI Integration, Backend Infrastructure, Dashboard Communication & Monitoring System |
 
 ---
 
-# 🧭 Future Scope
+Both contributors collaboratively worked on AI model training, surveillance intelligence integration, and overall system development.
+---
 
-- 🔫 Weapon Detection
-- ☁️ Cloud Evidence Storage
-- 📱 Mobile Police App
-- 🌍 Smart City Integration
-- 🛰️ Multi-Camera Synchronization
-- 🤖 Distributed AI Nodes
-- 🚔 Automatic Dispatch Suggestions
-- 👥 Crowd Anomaly Detection
+# References
+
+- FastAPI
+- OpenCV
+- PyTorch
+- React
+- Vite
+- WebSockets
+- Render
+- Vercel
+- ngrok
 
 ---
 
-# 🤝 Contributors
+# License
 
-## 👨‍💻 Sayan Hazra
-📧 sayanh992@gmail.com
-
----
-
-## 👨‍💻 Hanumant Pratap
-📧 hanumantpratap1234@gmail.com
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
+MIT License
 
 ---
 
 <div align="center">
 
-### 👁️ An EYE
-#### Intelligent Surveillance For Faster Emergency Response
+Built for intelligent emergency response and public safety infrastructure.
 
-⭐ Star the repository if you found this project useful.
-
-</div>
+</div> 
